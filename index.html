@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#eaf7ff">
+    <meta name="color-scheme" content="light dark">
+
+    <title>Tạ Đăng Khôi - Portfolio | Zin Luxury</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body class="light-theme">
+
+    <!-- ================= NAVBAR ================= -->
+    <header class="navbar">
+        <a href="#home" class="logo">
+            <span class="logo-mark">Z</span>
+            <span>ZIN <strong>LUXURY</strong></span>
+        </a>
+
+        <nav id="mainNav" aria-label="Điều hướng chính">
+            <ul class="nav">
+                <li><a href="#home" class="active">Trang chủ</a></li>
+                <li><a href="#about">Giới thiệu</a></li>
+                <li><a href="#skills">Kỹ năng</a></li>
+                <li><a href="#projects">Dự án</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+            </ul>
+        </nav>
+
+        <div class="nav-actions">
+            <button
+                class="theme-toggle"
+                id="themeToggle"
+                type="button"
+                aria-label="Chuyển sang giao diện tối"
+                title="Dark mode"
+                aria-pressed="false"
+                onclick="window.toggleZinTheme && window.toggleZinTheme(event)"
+            >
+                <span class="theme-icon" id="themeIcon" aria-hidden="true">☀</span>
+            </button>
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                type="button"
+                aria-label="Mở menu"
+                aria-expanded="false"
+            >☰</button>
+        </div>
+
+        <div class="social-links">
+            <a href="#" aria-label="Instagram">
+                <img src="./assets/images/instagram.png" alt="Instagram">
+            </a>
+
+            <a href="#" aria-label="Twitter">
+                <img src="./assets/images/twitter.png" alt="Twitter">
+            </a>
+
+            <a href="#" aria-label="Facebook">
+                <img src="./assets/images/facebook.png" alt="Facebook">
+            </a>
+        </div>
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+    <main>
+
+        <section id="home" class="hero-section">
+
+            <div class="hero-content">
+
+                <span class="hero-badge">
+                    ✦ PORTFOLIO 2026
+                </span>
+
+                <div class="online-status" aria-label="Trạng thái hiện tại">
+                    <span class="online-dot"></span>
+                    <span>ONLINE</span>
+                    <small>Đang hoạt động</small>
+                </div>
+
+                <p class="hero-small">
+                    Xin chào, tôi là
+                </p>
+
+                <h1>
+                    Tạ Đăng <span>Khôi</span>
+                </h1>
+
+                <h2>
+                    Nhà phát triển Web &amp; người yêu thích công nghệ
+                </h2>
+
+                <p class="hero-description">
+                    Tôi là sinh viên Công nghệ Thông tin tại Đại học Đại Nam,
+                    yêu thích lập trình web, thiết kế giao diện hiện đại và
+                    xây dựng những sản phẩm công nghệ có trải nghiệm tốt.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="cta-btn primary-btn">
+                        Xem dự án
+                        <span>→</span>
+                    </a>
+
+                    <a href="#about" class="cta-btn secondary-btn">
+                        Tìm hiểu thêm
+                    </a>
+                </div>
+
+                <div class="hero-info">
+                    <div>
+                        <strong>01+</strong>
+                        <span>Năm học tập</span>
+                    </div>
+
+                    <div>
+                        <strong>05+</strong>
+                        <span>Dự án cá nhân</span>
+                    </div>
+
+                    <div>
+                        <strong>24/7</strong>
+                        <span>Đam mê công nghệ</span>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="right">
+
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+
+                <div class="avatar-glow"></div>
+
+                <div class="avatar-container">
+
+                    <div class="avatar-frame"></div>
+
+                    <img
+                        id="avatar"
+                        src="./assets/images/avatar.png"
+                        alt="Ảnh đại diện Tạ Đăng Khôi"
+                    >
+
+                </div>
+
+                <div class="floating-card card-top">
+                    <span>⌘</span>
+                    <div>
+                        <strong>Developer</strong>
+                        <small>Creative Coding</small>
+                    </div>
+                </div>
+
+                <div class="floating-card card-bottom">
+                    <span>✦</span>
+                    <div>
+                        <strong>UI / UX</strong>
+                        <small>Modern Interface</small>
+                    </div>
+                </div>
+
+                <div class="floating-card card-left">
+                    <span>☆</span>
+                    <div>
+                        <strong>JavaScript</strong>
+                        <small>Programming Language</small>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+        <section id="about" class="content-section">
+
+            <div class="section-heading">
+                <span>01 — ABOUT ME</span>
+                <h2>Giới thiệu về tôi</h2>
+                <p>
+                    Một chút thông tin về quá trình học tập, định hướng
+                    và những điều tôi đang theo đuổi.
+                </p>
+            </div>
+
+            <div class="about-grid">
+
+                <article class="about-card">
+                    <div class="card-icon">🎓</div>
+
+                    <h3>Học tập &amp; nền tảng</h3>
+
+                    <p>
+                        Hiện tại tôi đang theo học ngành Công nghệ Thông tin
+                        tại Đại học Đại Nam. Tôi tập trung tìm hiểu lập trình,
+                        phát triển website và các công nghệ web hiện đại.
+                    </p>
+
+                    <div class="card-line"></div>
+
+                    <span class="card-label">
+                        INFORMATION TECHNOLOGY
+                    </span>
+                </article>
+
+
+                <article class="about-card">
+                    <div class="card-icon">🚀</div>
+
+                    <h3>Mục tiêu sự nghiệp</h3>
+
+                    <p>
+                        Không ngừng nâng cao kỹ năng lập trình, tư duy giải quyết
+                        vấn đề và khả năng thiết kế sản phẩm để hướng tới trở
+                        thành một Web Developer chuyên nghiệp.
+                    </p>
+
+                    <div class="card-line"></div>
+
+                    <span class="card-label">
+                        WEB DEVELOPMENT
+                    </span>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SKILLS ================= -->
+        <section id="skills" class="content-section dark-section">
+
+            <div class="section-heading">
+                <span>02 — SKILLS</span>
+                <h2>Kỹ năng của tôi</h2>
+                <p>
+                    Những công nghệ và công cụ tôi đang học tập và sử dụng.
+                </p>
+            </div>
+
+            <div class="skills-container">
+
+                <div class="skill-tag">
+                    <span>01</span>
+                    <strong>HTML5</strong>
+                    <small>Cấu trúc Website</small>
+                </div>
+
+                <div class="skill-tag">
+                    <span>02</span>
+                    <strong>CSS3</strong>
+                    <small>Giao diện &amp; Animation</small>
+                </div>
+
+                <div class="skill-tag">
+                    <span>03</span>
+                    <strong>JavaScript</strong>
+                    <small>ES6+ &amp; Logic</small>
+                </div>
+
+                <div class="skill-tag">
+                    <span>04</span>
+                    <strong>Responsive</strong>
+                    <small>Mobile First</small>
+                </div>
+
+                <div class="skill-tag">
+                    <span>05</span>
+                    <strong>UI / UX</strong>
+                    <small>Thiết kế giao diện</small>
+                </div>
+
+                <div class="skill-tag">
+                    <span>06</span>
+                    <strong>Git</strong>
+                    <small>Version Control</small>
+                </div>
+
+                <div class="skill-tag">
+                    <span>07</span>
+                    <strong>GitHub</strong>
+                    <small>Project Management</small>
+                </div>
+
+                <div class="skill-tag">
+                    <span>08</span>
+                    <strong>VS Code</strong>
+                    <small>Development</small>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROJECTS ================= -->
+        <section id="projects" class="content-section">
+
+            <div class="section-heading">
+                <span>03 — PROJECTS</span>
+                <h2>Dự án nổi bật</h2>
+                <p>
+                    Một số sản phẩm và dự án tôi đã thực hiện hoặc đang phát triển.
+                </p>
+            </div>
+
+            <div class="projects-grid">
+
+                <article class="project-card">
+
+                    <div class="project-number">01</div>
+
+                    <div class="project-icon">
+                        Z
+                    </div>
+
+                    <div class="project-content">
+
+                        <span class="project-type">
+                            WEBSITE / PERSONAL PROJECT
+                        </span>
+
+                        <h3>Zin Luxury Website</h3>
+
+                        <p>
+                            Website cá nhân với phong cách dark luxury,
+                            tập trung vào trải nghiệm người dùng và giao diện
+                            hiện đại.
+                        </p>
+
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Responsive</span>
+                            <span>UI/UX</span>
+                        </div>
+
+                    </div>
+
+                    <a href="#" class="project-link">
+                        Xem dự án →
+                    </a>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-number">02</div>
+
+                    <div class="project-icon vpn-icon">
+                        V
+                    </div>
+
+                    <div class="project-content">
+
+                        <span class="project-type">
+                            FRONTEND / UI PROJECT
+                        </span>
+
+                        <h3>SecureVPN Frontend</h3>
+
+                        <p>
+                            Giao diện mô phỏng ứng dụng VPN với hệ thống
+                            lựa chọn máy chủ, trạng thái kết nối và thiết kế
+                            tối ưu cho nhiều thiết bị.
+                        </p>
+
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Responsive</span>
+                        </div>
+
+                    </div>
+
+                    <a href="#" class="project-link">
+                        Xem dự án →
+                    </a>
+
+                </article>
+
+                <article class="project-card">
+
+    <div class="project-number">03</div>
+
+    <div class="project-icon aurastore-icon">
+        A
+    </div>
+
+    <div class="project-content">
+
+        <span class="project-type">
+            E-COMMERCE / UI PROJECT
+        </span>
+
+        <h3>AuraStore</h3>
+
+        <p>
+            Giao diện cửa hàng trực tuyến hiện đại với hệ thống
+            hiển thị sản phẩm, danh mục, tìm kiếm và trải nghiệm
+            mua sắm được tối ưu cho nhiều thiết bị.
+        </p>
+
+        <div class="project-tech">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Responsive</span>
+            <span>UI/UX</span>
+        </div>
+
+    </div>
+
+    <a href="#" class="project-link">
+        Xem dự án →
+    </a>
+
+</article>
+
+<article class="project-card">
+
+    <div class="project-number">04</div>
+
+    <div class="project-icon portfolio-icon">
+        P
+    </div>
+
+    <div class="project-content">
+
+        <span class="project-type">
+            PERSONAL / WEB PROJECT
+        </span>
+
+        <h3>Personal Portfolio</h3>
+
+        <p>
+            Website portfolio cá nhân giới thiệu thông tin,
+            kỹ năng và các dự án nổi bật với giao diện hiện đại,
+            responsive và tối ưu trải nghiệm trên nhiều thiết bị.
+        </p>
+
+        <div class="project-tech">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Portfolio</span>
+        </div>
+
+    </div>
+
+    <a href="#" class="project-link">
+        Xem dự án →
+    </a>
+
+</article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+        <section id="contact" class="contact-section">
+
+            <div class="contact-box">
+
+                <div class="contact-heading">
+                    <span>04 — CONTACT</span>
+
+                    <h2>
+                        Hãy cùng tạo ra
+                        <strong>điều gì đó tuyệt vời.</strong>
+                    </h2>
+
+                    <p>
+                        Nếu bạn muốn kết nối, trao đổi về công nghệ hoặc
+                        hợp tác trong một dự án, hãy liên hệ với tôi.
+                    </p>
+                </div>
+
+                <div class="contact-list">
+
+                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" class="contact-item">
+                        <span class="contact-icon">@</span>
+
+                        <div>
+                            <small>Email</small>
+                            <strong>dangkhoita2@gmail.com</strong>
+                        </div>
+                    </a>
+
+                    <a href="https://zalo.me/0828689789" class="contact-item">
+                        <span class="contact-icon">☎</span>
+
+                        <div>
+                            <small>Hotline</small>
+                            <strong>0828.689.789</strong>
+                        </div>
+                    </a>
+
+                    <a href="https://github.com/ZinGodBoy" class="contact-item">
+                        <span class="contact-icon">◆</span>
+
+                        <div>
+                            <small>Github</small>
+                            <strong>https://github.com/ZinGodBoy</strong>
+                        </div>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+
+        <div class="footer-logo">
+            <span class="logo-mark">Z</span>
+            <strong>ZIN LUXURY</strong>
+        </div>
+
+        <p>
+            © 2026 Tạ Đăng Khôi. Designed &amp; Developed with passion.
+        </p>
+
+        <a href="#home" class="back-top" id="backTop" aria-label="Về đầu trang">
+            ↑
+        </a>
+
+    </footer>
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+    <script src="./assets/js/app.js?v=20261008" defer></script>
+
+</body>
+</html>
