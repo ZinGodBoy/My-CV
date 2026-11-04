@@ -1587,3 +1587,70 @@ body:not(.light-theme) #themeToggle {
         z-index: 99990;
     }
 }
+
+
+/* =========================================================
+   SAFARI MOBILE — IMAGE OVERFLOW FIX
+   Fixes Issue #1 without hiding or removing any controls.
+   ========================================================= */
+
+.avatar-container,
+.right {
+    min-width: 0;
+    max-width: 100%;
+}
+
+#avatar {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: 500px;
+    min-width: 0;
+    object-fit: contain;
+    object-position: center;
+}
+
+@media (max-width: 750px) {
+    .right {
+        width: 100%;
+        min-width: 0;
+        overflow: visible;
+    }
+
+    .avatar-container {
+        width: min(420px, 100%);
+        max-width: 100%;
+        min-width: 0;
+        overflow: visible;
+    }
+
+    #avatar {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        max-height: 430px;
+        min-width: 0;
+        object-fit: contain;
+    }
+}
+
+@media (max-width: 480px) {
+    .right {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .avatar-container {
+        width: min(340px, 100%);
+        max-width: 100%;
+        min-width: 0;
+    }
+
+    #avatar {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        max-height: 360px;
+    }
+}
