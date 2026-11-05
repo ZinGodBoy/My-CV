@@ -1,25 +1,48 @@
-# Release Note
+# Release Note — My-CV
 
-## Phiên bản v1.0
+## v1.0.0 — 05/11/2026
 
-**Ngày phát hành:** 05/11/2026
+### ✨ Added
+- Personal CV and portfolio website.
+- Responsive Home, About, Skills, Projects and Contact sections.
+- Light/Dark theme.
+- Mobile navigation.
+- Portfolio project presentation.
+- Docker/Nginx deployment.
+- Docker Compose configuration.
+- GitHub Actions workflow for GitHub Pages.
 
-### Chức năng mới
-- Hoàn thiện phiên bản đầu tiên của hệ thống.
-- Bổ sung các chức năng cơ bản phục vụ người dùng.
-- Hoàn thiện giao diện và bố cục chính của hệ thống.
-- Bổ sung các thành phần cần thiết để hệ thống có thể hoạt động ổn định.
-- Cải thiện trải nghiệm sử dụng và khả năng tương tác.
+### 🛠️ Improved
+- Repository structure and documentation.
+- README with setup, architecture and development workflow.
+- Testing report and evidence checklist.
+- AI development log.
+- Git ignore rules for a cleaner repository.
 
-### Lỗi đã sửa
-- Sửa một số lỗi hiển thị giao diện.
-- Khắc phục lỗi liên quan đến các chức năng cơ bản.
-- Sửa lỗi bố cục trên một số kích thước màn hình.
-- Cải thiện độ ổn định và khả năng hoạt động của hệ thống.
+### 🐛 Fixed
+- Standardized asset references.
+- Improved responsive behavior and project documentation.
+- Reduced ambiguity in setup and deployment instructions.
 
-### Hạn chế còn tồn tại
-- Một số chức năng nâng cao chưa được triển khai.
-- Giao diện vẫn cần tiếp tục tối ưu trên nhiều thiết bị và kích thước màn hình.
-- Hiệu năng có thể chưa tối ưu khi xử lý lượng dữ liệu lớn.
-- Một số lỗi nhỏ có thể vẫn xuất hiện trong quá trình sử dụng.
-- Các tính năng và nội dung sẽ tiếp tục được cải thiện trong những phiên bản tiếp theo.
+### 🧪 Verification
+- Desktop: PASS.
+- Tablet: PASS.
+- Mobile: PASS.
+- Chrome: PASS.
+- Edge: PASS.
+- Theme persistence: PASS.
+- Local HTTP server: PASS.
+- Docker deployment: PASS.
+- GitHub Pages workflow: configured.
+
+### ⚠️ Known limitations
+- Performance can be improved further through image optimization.
+- Automated accessibility/HTML validation can be added in a future release.
+- Portfolio content will continue to evolve as new projects are completed.
+
+### 🔜 Next
+- Add more real project case studies.
+- Add Lighthouse/HTML validation to CI.
+- Optimize image formats and loading.
+- Improve accessibility and SEO metadata.
+
