@@ -1,63 +1,57 @@
 # AI Change Log
 
-> Tài liệu ghi lại các thay đổi lớn được thực hiện với sự hỗ trợ của AI trong quá trình phát triển dự án.
+> Nhật ký ghi nhận các thay đổi đáng kể có sự hỗ trợ của AI trong quá trình phát triển My-CV.
 
----
-
-## [05/11/2026] - Khởi tạo phiên bản v1.0
+## [05/11/2026] — Chuẩn hóa repository và tài liệu v1.0
 
 ### Thay đổi
-- Khởi tạo phiên bản đầu tiên của dự án.
-- Hoàn thiện cấu trúc cơ bản của hệ thống.
-- Bổ sung các chức năng chính của phiên bản v1.0.
-- Hoàn thiện giao diện và bố cục ban đầu.
-- Tạo tài liệu `RELEASENOTE.md` để quản lý thông tin phát hành.
+- Rà soát cấu trúc repository.
+- Chuẩn hóa README theo hướng tài liệu bàn giao chuyên nghiệp.
+- Bổ sung `.gitignore`.
+- Bổ sung Dockerfile và Docker Compose.
+- Bổ sung GitHub Actions cho GitHub Pages.
+- Hoàn thiện báo cáo kiểm thử.
+- Chuẩn hóa release documentation.
 
-### AI đã hỗ trợ
-- Đề xuất cấu trúc và nội dung tài liệu dự án.
-- Hỗ trợ viết và chỉnh sửa mã nguồn.
-- Kiểm tra và cải thiện một số lỗi trong quá trình phát triển.
-- Đề xuất cách tổ chức tài liệu và quản lý phiên bản.
+### AI hỗ trợ
+- Phân tích cấu trúc source và tài liệu hiện có.
+- Đề xuất cách tổ chức repository.
+- Hỗ trợ viết README, test report và cấu hình CI/CD.
+- Rà soát tính nhất quán giữa source, tài liệu và quy trình triển khai.
 
-### Lý do thay đổi
-- Hoàn thiện phiên bản đầu tiên của dự án.
-- Chuẩn hóa tài liệu để thuận tiện cho việc phát triển và bảo trì về sau.
+### Lý do
+Mục tiêu là đưa repository từ trạng thái bài tập cá nhân thành một sản phẩm có cấu trúc rõ ràng, có thể tái sử dụng và dễ đánh giá.
 
 ### Kết quả
-- Dự án có cấu trúc cơ bản hoàn chỉnh.
-- Các chức năng chính của phiên bản v1.0 đã được triển khai.
-- Có tài liệu ghi nhận lịch sử thay đổi và quá trình sử dụng AI.
+- Repository có tài liệu hướng dẫn đầy đủ hơn.
+- Có quy trình triển khai tự động.
+- Có khả năng chạy bằng Docker.
+- Có báo cáo kiểm thử và minh chứng.
+- Dễ bảo trì và mở rộng.
 
----
+## [04/11/2026] — Hoàn thiện giao diện và source
+
+### Thay đổi
+- Hoàn thiện HTML/CSS/JavaScript.
+- Bổ sung responsive layout.
+- Hoàn thiện theme Light/Dark.
+- Bổ sung khu vực About, Skills, Projects và Contact.
+
+### AI hỗ trợ
+- Gợi ý UI/UX, responsive layout và cách xử lý JavaScript.
+- Hỗ trợ rà soát lỗi giao diện.
+
+### Kết quả
+Website đạt cấu trúc portfolio cơ bản và có thể chạy trên trình duyệt hiện đại.
 
 ## Quy tắc ghi log
 
-Mỗi khi thực hiện **thay đổi lớn**, cần tạo một mục mới trong file này.
+Mỗi thay đổi lớn nên ghi:
+1. Ngày thay đổi.
+2. Tên thay đổi.
+3. Nội dung.
+4. Phạm vi AI hỗ trợ.
+5. Lý do.
+6. Kết quả.
 
-Các trường thông tin cần ghi:
-- **Ngày thay đổi**
-- **Tên thay đổi**
-- **Nội dung thay đổi**
-- **AI đã hỗ trợ**
-- **Lý do thay đổi**
-- **Kết quả sau thay đổi**
-
-### Ví dụ
-
-```md
-## [DD/MM/YYYY] - Tên thay đổi
-
-### Thay đổi
-- Mô tả những nội dung lớn đã được thay đổi.
-
-### AI đã hỗ trợ
-- AI hỗ trợ phân tích, viết code hoặc sửa lỗi như thế nào.
-
-### Lý do thay đổi
-- Giải thích tại sao cần thực hiện thay đổi.
-
-### Kết quả
-- Mô tả kết quả sau khi hoàn thành.
-```
-
-> **Lưu ý:** Chỉ ghi `AI_LOG.md` đối với các thay đổi đáng kể như thêm chức năng mới, thay đổi kiến trúc, sửa lỗi quan trọng, thay đổi giao diện lớn hoặc tối ưu hệ thống. Không cần log các thay đổi nhỏ như sửa lỗi chính tả hoặc chỉnh một vài dòng nội dung.
+Không cần ghi các thay đổi nhỏ như sửa chính tả hoặc chỉnh một vài dòng nội dung.
