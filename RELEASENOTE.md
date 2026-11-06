@@ -1,48 +1,78 @@
-# Release Note — My-CV
+# Release Notes — My-CV
+
+> Lịch sử các phiên bản và thay đổi chính của website CV & Portfolio cá nhân Tạ Đăng Khôi.
+
+## v1.1.0 — 06/11/2026
+
+### ✨ Added
+- Bổ sung Contact Form trong section 04 — CONTACT.
+- Thêm Họ và tên, Email, Chủ đề và Nội dung.
+- Thêm bộ đếm ký tự.
+- Thêm validation phía client và lỗi theo từng trường.
+- Thêm chức năng tạo email bằng mailto.
+- Thêm trạng thái xử lý và thông báo sau khi form hợp lệ.
+
+### 🎨 UI/UX
+- Nâng cấp Contact Form theo phong cách premium.
+- Glassmorphism, gradient, glow và grid background.
+- Cải thiện border, shadow, focus và hover state.
+- Thêm shine animation cho nút gửi.
+- Responsive cho desktop, tablet và mobile.
+- Đồng bộ Light/Dark Theme.
+
+### 🔐 Security / Privacy
+- Form không có backend/database.
+- Không lưu dữ liệu nhập vào database.
+- Không đưa API key, mật khẩu hoặc credential vào source.
+- Có giới hạn độ dài input và validation phía client.
+
+### 🧪 Verification
+- Contact Form desktop: PASS.
+- Contact Form mobile: PASS.
+- Validation: PASS.
+- Character counter: PASS.
+- Light Theme: PASS.
+- Dark Theme: PASS.
+- Responsive layout: PASS.
 
 ## v1.0.0 — 05/11/2026
 
 ### ✨ Added
-- Personal CV and portfolio website.
-- Responsive Home, About, Skills, Projects and Contact sections.
-- Light/Dark theme.
-- Mobile navigation.
-- Portfolio project presentation.
-- Docker/Nginx deployment.
-- Docker Compose configuration.
-- GitHub Actions workflow for GitHub Pages.
+- Personal CV & Portfolio website.
+- Home, About, Skills, Projects và Contact.
+- Light/Dark Theme.
+- Responsive navigation.
+- Portfolio project cards.
+- GitHub Pages deployment.
+- Docker/Nginx và Docker Compose configuration.
+- GitHub Actions workflow.
 
 ### 🛠️ Improved
-- Repository structure and documentation.
-- README with setup, architecture and development workflow.
-- Testing report and evidence checklist.
-- AI development log.
-- Git ignore rules for a cleaner repository.
+- Repository structure.
+- README, AI log, test report và release documentation.
+- Git workflow.
 
 ### 🐛 Fixed
-- Standardized asset references.
-- Improved responsive behavior and project documentation.
-- Reduced ambiguity in setup and deployment instructions.
+- Chuẩn hóa asset paths.
+- Cải thiện responsive layout.
+- Làm rõ hướng dẫn chạy và triển khai.
 
-### 🧪 Verification
-- Desktop: PASS.
-- Tablet: PASS.
-- Mobile: PASS.
-- Chrome: PASS.
-- Edge: PASS.
-- Theme persistence: PASS.
-- Local HTTP server: PASS.
-- Docker deployment: PASS.
-- GitHub Pages workflow: configured.
-
-### ⚠️ Known limitations
-- Performance can be improved further through image optimization.
-- Automated accessibility/HTML validation can be added in a future release.
-- Portfolio content will continue to evolve as new projects are completed.
+### ⚠️ Known Limitations
+- Contact Form sử dụng mailto thay vì backend/API.
+- Có thể tối ưu thêm hình ảnh.
+- Có thể bổ sung automated accessibility/HTML validation.
+- Nội dung portfolio sẽ tiếp tục được cập nhật.
 
 ### 🔜 Next
-- Add more real project case studies.
-- Add Lighthouse/HTML validation to CI.
-- Optimize image formats and loading.
-- Improve accessibility and SEO metadata.
+- Bổ sung project case study thực tế.
+- Tối ưu SEO và accessibility.
+- Thêm Lighthouse/HTML validation vào CI.
+- Tối ưu responsive images.
 
+<div align="center">
+
+**My-CV — Tạ Đăng Khôi**
+
+> Build • Learn • Improve • Repeat
+
+</div>
