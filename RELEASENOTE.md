@@ -1,5 +1,28 @@
 # Release Notes — My-CV
 
+## v1.2.0 — 09/11/2026
+
+### ✨ Added
+- Bổ sung SEO metadata, description và Open Graph metadata.
+- Thêm skip-link hỗ trợ accessibility và bàn phím.
+- Thêm thanh tiến trình cuộn trang.
+- Tự động đồng bộ menu điều hướng theo section hiện tại.
+- Hiển thị trạng thái ONLINE/OFFLINE theo kết nối trình duyệt.
+- Tách enhancement JavaScript thành `js/portfolio-enhancements.js`.
+
+### 🔧 Improved
+- Chuẩn hóa liên kết mạng xã hội với `target="_blank"` và `noopener noreferrer`.
+- Giữ `app.js` ổn định, các tính năng mới được bổ sung theo module riêng.
+- Hoàn thiện quy trình cập nhật qua branch + Pull Request.
+
+### 🧪 Verification
+- Pull Request #3 đã được merge vào `main`.
+- Commit release: `b5bd0df`.
+- Không thay đổi backend hoặc database.
+
+---
+
+
 > Lịch sử các phiên bản và thay đổi chính của website CV & Portfolio cá nhân Tạ Đăng Khôi.
 
 ## v1.1.0 — 06/11/2026
