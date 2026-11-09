@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <meta name="theme-color" content="#eaf7ff">
+    <meta name="description" content="Portfolio cá nhân của Tạ Đăng Khôi — sinh viên Công nghệ Thông tin tại Đại học Đại Nam, định hướng Web Development, Full-Stack và UI/UX.">
+    <meta name="author" content="Tạ Đăng Khôi">
+    <meta property="og:title" content="Tạ Đăng Khôi — My-CV">
+    <meta property="og:description" content="Portfolio cá nhân, kỹ năng và các dự án công nghệ của Tạ Đăng Khôi.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://zingodboy.github.io/My-CV/">
     <meta name="color-scheme" content="light dark">
     <title>Tạ Đăng Khôi - Portfolio | Zin Luxury</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,6 +18,8 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body class="light-theme">
+    <a class="skip-link" href="#main-content">Bỏ qua đến nội dung chính</a>
+    <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
     <header class="navbar">
         <a href="#home" class="logo"><span class="logo-mark">Z</span><span>Tạ <strong>Đăng Khôi</strong></span></a>
         <nav id="mainNav" aria-label="Điều hướng chính">
@@ -30,13 +38,13 @@
             <button class="menu-toggle" id="menuToggle" type="button" aria-label="Mở menu" aria-expanded="false">☰</button>
         </div>
         <div class="social-links">
-            <a href="#" aria-label="Instagram"><img src="./assets/images/instagram.png" alt="Instagram"></a>
-            <a href="#" aria-label="Twitter"><img src="./assets/images/twitter.png" alt="Twitter"></a>
-            <a href="#" aria-label="Facebook"><img src="./assets/images/facebook.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><img src="./assets/images/instagram.png" alt="Instagram"></a>
+            <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><img src="./assets/images/twitter.png" alt="Twitter"></a>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><img src="./assets/images/facebook.png" alt="Facebook"></a>
         </div>
     </header>
 
-    <main>
+    <main id="main-content">
         <section id="home" class="hero-section">
             <div class="hero-content">
                 <span class="hero-badge">✦ PORTFOLIO 2026</span>
@@ -155,5 +163,6 @@
     </footer>
 
     <script src="./js/app.js?v=20261106" defer></script>
+    <script src="./js/portfolio-enhancements.js?v=20261109" defer></script>
 </body>
 </html>
